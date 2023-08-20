@@ -3,7 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Space website</title>
   </head>
-  <body></body>
+  <body class="bg-[#0B0D17] text-[#FFFFFF] pb-40">
+    <!-- NAVBAR SECTION -->
+    <nav class="flex justify-between items-center w-[100%] p-4">
+      <img class="p-6" src="./Images/logo.png" alt="image" />
+      <ul
+        class="flex items-center justify-center gap-10 bg-[#1B1E29] text-[20px] w-[50%] p-6"
+      >
+        <a class="flex gap-3 items-center hover:underline" href="">
+          <span class="font-bold text-[24px]">01</span> Home</a
+        >
+        <a class="flex gap-3 items-center hover:underline" href=""
+          ><span class="font-bold text-[24px]">02</span> Destination</a
+        >
+        <a class="flex gap-3 items-center hover:underline" href=""
+          ><span class="font-bold text-[24px]">03</span> Crew</a
+        >
+        <a class="flex gap-3 items-center hover:underline" href=""
+          ><span class="font-bold text-[24px]">04</span> Technology</a
+        >
+      </ul>
+    </nav>
+
+    <!-- SHOWCASE SECTION -->
+    <h1 class="flex gap-3 items-center pl-40 pt-36 text-[28px] font-bold">
+      <span class="text-[#242837] font-extrabold">01</span>PICK YOUR DESTINATION
+    </h1>
+
+    <section class="flex justify-center items-center gap-32 px-[100px] pt-12">
+      <div class="w-[50%]">
+        <img src="./Images/Bitmap.png" alt="image" />
+      </div>
+      <div class="w-[50%] flex flex-col gap-4">
+        <ul class="flex gap-6 font-semibold text-[#D0D6F9] text-[14px]">
+          <li>MOON</li>
+          <li>MARS</li>
+          <li>EUROPA</li>
+          <li>TITAN</li>
+        </ul>
+        <h2 class="text-[80px] font-bold">MOON</h2>
+        <p class="w-[60%] text-[#D0D6F9] text-justify">
+          See our planet as you've never seen it before. A perfect Relaxing trip
+          away to help regain perspective and come back refreshed. While you're
+          there, take in some history by visiting the Luna 2 and Apolo 11
+          landing sites.
+        </p>
+        <div
+          class="w-[60%] flex justify-between border-t-[1px] border-[#8f8a8a] pt-3"
+        >
+          <div>
+            <p class="text-[12px] text-[#D0D6F9]">AVG. DISTANCE</p>
+            <p class="text-[18px] font-semibold">384, 400 KM</p>
+          </div>
+          <div>
+            <p class="text-[12px] text-[#D0D6F9]">EST. TRAVEL TIME</p>
+            <p class="text-[18px] font-semibold">3 DAYS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
